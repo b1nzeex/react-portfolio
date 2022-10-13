@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 130px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 15px;
+}
+
+.links a:hover,
+.links a:active {
+  color: #079992;
+  transition: 0.5s color ease;
+}
+
+.btn {
+  color: #079992 !important;
+  border: 1px solid #079992;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #079992;
+  color: white !important;
+  transition: 0.5s background-color ease;
+}

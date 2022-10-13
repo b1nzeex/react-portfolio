@@ -1,0 +1,35 @@
+.footer {
+  background-color: #079992;
+  text-align: center;
+  padding: 50px;
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.links a:hover,
+.links a:active {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.copyright {
+  opacity: 0.7;
+}

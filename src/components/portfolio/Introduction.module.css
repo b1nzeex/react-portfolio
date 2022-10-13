@@ -1,0 +1,14 @@
+.container {
+  text-align: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.container h5 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
