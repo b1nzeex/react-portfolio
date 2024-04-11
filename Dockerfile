@@ -12,6 +12,7 @@ COPY --from=builder /usr/react/public /usr/react/public
 COPY --from=builder /usr/react/package.json ./
 COPY --from=builder /usr/react/package-lock.json ./
 COPY --from=builder /usr/react/tsconfig.json ./
-    
+
+RUN npm i -g npm
 RUN npm i
 CMD ["npm", "start"]
