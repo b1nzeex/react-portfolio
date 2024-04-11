@@ -1,11 +1,11 @@
-FROM node:19-alpine as builder
+FROM node:18-alpine as builder
 WORKDIR /usr/react
 
 COPY src src
 COPY public public
 COPY package.json package-lock.json tsconfig.json ./
 
-FROM node:19-alpine
+FROM node:18-alpine
 WORKDIR /usr/react
 COPY --from=builder /usr/react/src /usr/react/src
 COPY --from=builder /usr/react/public /usr/react/public
