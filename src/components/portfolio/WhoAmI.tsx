@@ -6,7 +6,7 @@ const WhoAmI = () => {
     <div className={classes.container}>
       <h3>Hey, I'm Connor! Nice to meet you!</h3>
       <p>
-        I am a 22 year old studying for a computing degree at college, I have
+        I am a 23 year old studying for a computing degree at college, I have
         had a passion for programming since I was 12 years old and been
         experimenting ever since, mainly around web development and security. I
         have taken on some online commission work and done my own personal

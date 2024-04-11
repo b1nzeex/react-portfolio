@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  app:
+    container_name: portfolio_react
+    restart: always
+    build:
+      context: "./"
+      dockerfile: "Dockerfile"
+    networks:
+      - caddy_network
+networks:
+  caddy_network:
+    external: true
