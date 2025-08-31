@@ -15,4 +15,5 @@ COPY --from=builder /usr/react/tsconfig.json ./
 
 RUN npm i -g npm
 RUN npm i
+RUN npm run build
 CMD ["npm", "start"]
