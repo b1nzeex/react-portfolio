@@ -1,6 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { brands, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import {
+  faImage,
+  faArrowUpRightFromSquare,
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import classes from "./Projects.module.css";
 import streamishLogo from "../../media/streamish.png";
 import takeawayAppLogo from "../../media/takeaway-app.png";
@@ -37,14 +41,13 @@ const Projects = () => {
                 onClick={() => openUrl("https://i.imgur.com/4xNUiGw.png")}
                 className={classes.screenshot}
               >
-                <FontAwesomeIcon icon={solid("image")} /> Screenshot
+                <FontAwesomeIcon icon={faImage} /> Screenshot
               </button>
               <button className={classes.preview} disabled>
-                <FontAwesomeIcon icon={solid("arrow-up-right-from-square")} />{" "}
-                Live Preview
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Live Preview
               </button>
               <button className={classes.source} disabled>
-                <FontAwesomeIcon icon={brands("github")} /> Source
+                <FontAwesomeIcon icon={faGithub} /> Source
               </button>
             </div>
           </div>
@@ -62,19 +65,19 @@ const Projects = () => {
                 onClick={() => openUrl("https://i.imgur.com/G1YpSX9.png")}
                 className={classes.screenshot}
               >
-                <FontAwesomeIcon icon={solid("image")} /> Screenshot
+                <FontAwesomeIcon icon={faImage} /> Screenshot
               </button>
               <button className={classes.preview} disabled>
-                <FontAwesomeIcon icon={solid("arrow-up-right-from-square")} />{" "}
-                Live Preview
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Live Preview
               </button>
               <button
                 onClick={() =>
                   openUrl("https://github.com/b1nzeex/react-takeaway-app")
                 }
+                disabled
                 className={classes.source}
               >
-                <FontAwesomeIcon icon={brands("github")} /> Source
+                <FontAwesomeIcon icon={faGithub} /> Source
               </button>
             </div>
           </div>
@@ -92,17 +95,17 @@ const Projects = () => {
                 onClick={() => openUrl("https://i.imgur.com/VT4tliv.png")}
                 className={classes.screenshot}
               >
-                <FontAwesomeIcon icon={solid("image")} /> Screenshot
+                <FontAwesomeIcon icon={faImage} /> Screenshot
               </button>
               <button
                 className={classes.preview}
                 onClick={() => openUrl("https://dvs.gg")}
+                disabled
               >
-                <FontAwesomeIcon icon={solid("arrow-up-right-from-square")} />{" "}
-                Live Preview
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Live Preview
               </button>
               <button className={classes.source} disabled>
-                <FontAwesomeIcon icon={brands("github")} /> Source
+                <FontAwesomeIcon icon={faGithub} /> Source
               </button>
             </div>
           </div>
