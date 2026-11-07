@@ -14,7 +14,7 @@ const Navbar = () => {
           <a href="/">Portfolio</a>
         </li>
         <li>
-          <a className={classes.btn} href="mailto:cbeachx@gmail.com">
+          <a className={classes.btn} href="mailto:contact@b1nzee.me">
             Say Hello
           </a>
         </li>

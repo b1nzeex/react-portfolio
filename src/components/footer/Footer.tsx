@@ -16,7 +16,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faGithub} size="2xl" />
         </a>
 
-        <a href="mailto:cbeachx@gmail.com">
+        <a href="mailto:contact@b1nzee.me">
           <FontAwesomeIcon icon={faEnvelope} size="2xl" />
         </a>
       </div>
